@@ -1,4 +1,4 @@
-# Devoir maison N°1 - Service Public
+# Devoir maison N°1 Sébastien B. - Service Public
 
 **Lien vers le rendu :** [https://sitecube.fr/dm-service-public/](https://sitecube.fr/dm-service-public/)
 
