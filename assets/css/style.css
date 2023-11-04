@@ -1,3 +1,18 @@
+/* 
+    Style pour le devoir maison n°1 : Service public
+
+    Table des matières :
+     1. Variables
+     2. Styles Généraux
+     3. Header
+     4. Menu Header
+     5. Breadcrumb
+     6. Dashboard
+     7. Aside
+     8. Footer
+*/
+
+
 /* Variables */
 :root {
     --white: #fff;
@@ -36,11 +51,10 @@ body {
 
 @media only screen and (max-width: 768px) {
     body {
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 }
 
-/* Liens */
 a {
     text-decoration: none;
     color: var(--link-color);
@@ -51,10 +65,10 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Images */
 img {
     max-width: 100%;
 }
+
 
 /* Header */
 header {
@@ -277,8 +291,15 @@ header input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .dashboard h1 {
+        padding: 5px 0;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
     .dashboard .subtitle {
         font-weight: normal;
+        font-size: 1rem;
     }
 
     .dashboard article a h2 {
@@ -350,6 +371,14 @@ aside section li a {
 
 .news .view-all a {
     color: var(--orange);
+}
+
+@media only screen and (max-width: 768px) {
+    aside h3 {
+        padding: 5px 0;
+        text-align: center;
+        font-size: 1rem;
+    } 
 }
 
 /* Footer */
