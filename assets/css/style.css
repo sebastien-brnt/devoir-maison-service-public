@@ -84,10 +84,6 @@ header img {
     object-fit: contain;
 }
 
-header.row > div {
-    width: fit-content;
-}
-
 header input[type="text"] {
     width: 200px;
     margin-right: 10px;
@@ -171,6 +167,10 @@ header input[type="submit"]:hover {
 
 .menu-header > .main-menu > li > ul > li:first-child {
     margin-top: 0;
+}
+
+#recherche_conteneur input[type="text"] {
+    flex: 1;
 }
 
 @media only screen and (min-width: 992px) {
